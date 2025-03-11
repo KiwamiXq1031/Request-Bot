@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Feature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Request Feature</h2>
+        <label for="name">Dari:</label>
+        <input type="text" id="name" placeholder="Masukkan nama Anda">
+
+        <label for="feature">Nama Fitur:</label>
+        <input type="text" id="feature" placeholder="Masukkan nama fitur">
+
+        <label for="details">Detail Fitur:</label>
+        <textarea id="details" rows="4" placeholder="Jelaskan fitur yang diinginkan"></textarea>
+
+        <button onclick="sendRequest()">Kirim Request</button>
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
